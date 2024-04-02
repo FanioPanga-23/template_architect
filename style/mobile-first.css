@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font1);
+    transition: display 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+/*Menu*/
+
+menu{
+    display: flex;
+    position: sticky;
+    top: 0;
+    top: 1;
+    z-index: 1;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 8px 17px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #00000079;
+}
+
+menu div.div-link a{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.95em;
+    padding: 10px 15px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+menu div.div-link a:hover{background-color: #d1d1d1;}
+
+div.direita{display: none;}
+
+.right-link{margin: 0 -2px;}
+/*Header*/
+
+header{
+    position: relative;
+    max-width: 1500px;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+/*For all images*/
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.head-desc{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+/*Header H1*/
+.head-h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: normal;
+    transition: transform 0.1s ease-in-out;
+}
+/*Header H1 > strong*/
+.strong-h1{
+    display: inline-block;
+    font-family: var(--font1);
+    padding: 12px 15px;
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+#spanH1{display: none;}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 3%;
+}
+
+/*For all of main section*/
+.section-main{
+    max-width: 1500px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1% 0;
+}
+
+/*H1 container*/
+.section-title{padding: 7px 0;}
+
+/*h1*/
+.content-h1{
+    font-family: var(--font1);
+    font-size: 1.399em;
+    font-weight: normal;
+    padding: 17px 0;
+}
+
+/*For all of HR*/
+hr{
+    margin: 0 0 20px;
+    color: #ffffff2f;
+    font-weight: 200;
+}
+
+.flex-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    gap: 16px;
+}
+
+/*Images box*/
+.flex-box{
+    flex: 100%;
+    position: relative;
+    /*margin: 0 0 15px;*/
+}
+
+p.box-title{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+/*For all of p*/
+p{
+    text-align: justify;
+}
+
+/*Section about*/
+.about-desc p{
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.arc-info h2, p, .cargo{
+    text-align: left;
+    font-weight: normal;
+    padding: 8px 0;
+}
+
+.arc-info h2{padding-top: 20px;}
+
+.cargo{
+    color: gray;
+    font-weight: normal;
+    padding: 14px 0;
+}
+
+p.arc-desc{
+    padding: 8px 0 20px;
+}
+
+button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #e7e7e7;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #bbbbbb;
+}
+
+/*For workers images*/
+
+.workers{filter: grayscale(0.8);}
+
+/*Contact Section*/
+
+#contact{width: 100%;}
+
+input:not(input[type="submit"]),textarea{
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid rgb(214, 214, 214);
+    resize: none;
+}
+
+input[type="submit"]{
+    display: block;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 1em;
+    margin: 35px 0 0 0;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover{
+    background-color: #d1d1d1;
+    color: #000;
+    cursor: pointer;
+}
+
+/*Mapa*/
+#mapa{
+    width: 100%;
+    padding: 50px 0 1px;
+}
+
+/*Footer*/
+footer{
+    padding: 2%;
+    background-color: #000;
+}
+
+footer div{margin: 0 auto;}
+
+footer div p,a{
+    font-size: 0.959em;
+    text-align: center;
+    color: #fff;
+}
+
+footer div p a:hover{color: green;}
