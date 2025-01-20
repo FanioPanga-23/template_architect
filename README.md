@@ -5,4 +5,4 @@ This is a simple exercice to improve my skills in ***HTML and CSS***. That is ju
 You can see the diference:
 
 * Original: [Architects Template](https://www.w3schools.com/w3css/tryw3css_templates_architect.htm)
-* Made by me: [Architects Template]()
+* Made by me: [Architects Template](https://faniopanga-23.github.io/template_architect/)
