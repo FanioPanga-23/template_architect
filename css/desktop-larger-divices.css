@@ -1,0 +1,44 @@
+nav ul {display: block;}
+header h1 span.header-desc {display: inline-block;}
+
+/* PROJECTS SECTION */
+.container-projects {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.project-item {
+    width: 48.5%;
+}
+
+/* ABOUT SECTION */
+.container-workers-info {
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.worker-item {width: 48.5%;}
+
+.about-img {max-width: 100%;}
+
+@media screen and (width > 992px) {
+
+    /* PROJECTS SECTION */
+    .container-projects {
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .project-item {
+        width: 23.7%;
+    }
+
+    /* SECTION ABOUT */
+    .worker-item {width: 23.8%;}
+
+    /* SECTION MAP */
+    .map-img {
+        max-width: 100%;
+    }
+}

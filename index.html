@@ -1,218 +1,178 @@
 <!DOCTYPE html>
-<html lang="PT-pt">
+<html lang="pt-PT, en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Fânio Panga">
+    <meta name="description" content="Template de arquitectura, simulação de um site de uma empresa de arquitectura">
+    <meta name="keywords" content="arquitectura, Architecture, HTML, CSS, Responsive Web Design">
+    <meta name="robots" content="index, follow">
+    <meta name="og:title" content="Template de arquitectura">
+    <meta name="og:description" content="Template de arquitectura, simulação de um site de uma empresa de arquitectura">
+    <meta name="og:url" content="">
+    <link rel="canonical" href="">
+    <meta http-equiv="cache-control" content="no-cache">
+    <link rel="stylesheet" href="./css/mobile-small-divices.css">
+    <link rel="stylesheet" href="./css/desktop-larger-divices.css" media="screen and (width > 600px)">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Architects</title>
-    <link rel="stylesheet" href="style/mobile-first.css">
-    <link rel="stylesheet" href="style/tablet-desktop.css">
+    <title>Document</title>
 </head>
 <body>
-    <menu>
-        <div class="div-link">
-            <a href=""><strong>B R<span style="opacity: 0;">a</span></strong>A r c h i t e c t s</a>
-        </div>
-
-        <div class="div-link direita">
-            <a href="#projects" class="right-link">P r o j e c t s</a>
-            <a href="#about" class="right-link">A b o u t</a>
-            <a href="#contact" class="right-link">C o n t a c t</a>
-        </div>
-    </menu>
-
+    <nav>
+        <div class="right-link"><a href="#" class="btn-link"><span class="nav-right-link">BR</span> Architects</a></div>
+        <ul>
+            <li><a href="#projects" class="btn-link">Projetcs</a></li>
+            <li><a href="#about" class="btn-link">About</a></li>
+            <li><a href="#contact" class="btn-link">Contact</a></li>
+        </ul>
+    </nav>
     <header>
-        <img src="images/header/architect.jpg" alt="architect" width="1600px" height="600px">
-        <div class="head-desc">
-            <h1 class="head-h1">
-                <strong class="strong-h1">B<span style="opacity: 0;">I</span>R </strong> <span id="spanH1"> Architects</span>
-            </h1>
-        </div>     
+        <img src="./images/header/architect.jpg" alt="Architecture">
+        <h1>
+            <span class="header-h1-span">BR</span>
+            <span class="header-desc">Architects</span>
+        </h1>
     </header>
+    <main>
+        <section class="section-projects content-section" id="projects">
 
-    <div class="container">
+            <h1 class="section-heading">Projects</h1>
+                <hr>
+                <section class="container-projects">
+                    
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Summer House</span>
+                            <img class="project-img" src="./images/projects/Summer house.jpg" alt="Summer house" width="550px">
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Brick House</span>
+                            <img class="project-img" src="./images/projects/Brick house.jpg" alt="Brick House" width="550px">
+                        </div>
+                    </div>
 
-        <section class="section-main" id="projects">
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Renovated</span>
+                            <img class="project-img" src="./images/projects/Renovated house.jpg" alt="Renovated house" width="550px">
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Renovated</span>
+                            <img class="project-img" src="./images/projects/Barn House.jpg" alt="Barn House" width="550px">
+                        </div>
+                    </div>
 
-            <div class="section-title">
-                <h1 class="content-h1">Projects</h1>
-            </div>
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Sumer House</span>
+                            <img class="project-img" src="./images/projects/Brick house.jpg" alt="Brick House" width="550px">
+                        </div>
+                    </div>
 
-            <hr>
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Brick House</span>
+                            <img class="project-img" src="./images/projects/Summer house.jpg" alt="Summer house" width="550px">
+                        </div>
+                    </div>
 
-            <section class="flex-section">
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Renovated</span>
+                            <img class="project-img" src="./images/projects/Barn House.jpg" alt="Summer house" width="550px">
+                        </div>
+                    </div>
 
-                <div class="flex-box">
-                    <img src="images/projects/Summer house.jpg" alt="Summer house">
-                    <p class="box-title">Summer house</p>
-                </div>
+                    <div class="project-item">
+                        <div class="img-box">
+                            <span class="project-item-span">Barn House</span>
+                            <img class="project-img" src="./images/projects/Renovated house.jpg" alt="Summer house" width="550px">
+                        </div>
+                    </div>
 
-                <div class="flex-box">
-                    <img src="images/projects/Brick house.jpg" alt="Brick house">
-                    <p class="box-title">Brick house</p>
-                </div>
-
-                <div class="flex-box">
-                    <img src="images/projects/Renovated house.jpg" alt="Renovated house">
-                    <p class="box-title">Renovated house</p>
-                </div>
-
-                <div class="flex-box">
-                    <img src="images/projects/Barn House.jpg" alt="Barn house">
-                    <p class="box-title">Barn House</p>
-                </div>
-
-
-                <div class="flex-box">
-                    <img src="images/projects/Brick house.jpg" alt="Brick house">
-                    <p class="box-title">Summer house</p>
-                </div>
-                
-                <div class="flex-box">
-                    <img src="images/projects/Summer house.jpg" alt="Summer house">
-                    <p class="box-title">Brick house</p>
-                </div>
-                
-                <div class="flex-box">
-                    <img src="images/projects/Barn House.jpg" alt="Barn house">
-                    <p class="box-title">Renovated house</p>
-                </div>
-                
-                <div class="flex-box">
-                    <img src="images/projects/Renovated house.jpg" alt="Renovated house">
-                    <p class="box-title">Barn House</p>
-                </div>
-
-
-            </section>
+                </section>
 
         </section>
 
-        <section class="section-main" id="about">
-
-            <div class="section-title">
-                <h1 class="content-h1">About</h1>
-            </div>
-
+        <section class="section-about content-section" id="about">
+            <h1 class="section-heading">About</h1>
             <hr>
-
-            <div class="about-desc">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </div>
-
-            <section class="flex-section">
-
-                <div class="flex-box">
-                    <img class="workers" src="images/about/John Doe.jpg" alt="John Doe">
-
-                    <div class="arc-info">
-                        <h2>John Doe</h2>
-                        <h4 class="cargo">
-                            CEO & Founder
-                        </h4>
-
-                        <p class="arc-desc">
-                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                        </p>
-
-                        <button>Contact</button>
-                    </div>
-                </div>
-
-                <div class="flex-box">
-                    <img class="workers" src="images/about/Jane Doe.jpg" alt="Jane Doe">
-
-                    <div class="arc-info">
-                        <h2>Jane Doe</h2>
-                        <h4 class="cargo">
-                            Architect
-                        </h4>
-
-                        <p class="arc-desc">
-                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                        </p>
-
-                        <button>Contact</button>
-                    </div>
-                </div>
-                
-                <div class="flex-box">
-                    <img class="workers" src="images/about/Mike Ross.jpg" alt="Mike Ross">
-
-                    <div class="arc-info">
-                        <h2>Mike Ross</h2>
-                        <h4 class="cargo">
-                            Architect
-                        </h4>
-
-                        <p class="arc-desc">
-                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                        </p>
-
-                        <button>Contact</button>
-                    </div>
-                </div>
-                
-                <div class="flex-box">
-                    <img class="workers" src="images/about/Dan Star.jpg" alt="Dan Star">
-
-                    <div class="arc-info">
-                        <h2>Dan Star</h2>
-                        <h4 class="cargo">
-                            Architect
-                        </h4>
-
-                        <p class="arc-desc">
-                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                        </p>
-
-                        <button>Contact</button>
-                    </div>
-                </div>
-
-            </section>
-
-        </section>
-
-        <section class="section-main" id="contact">
-
-            <div class="section-title">
-                <h1 class="content-h1">Contact</h1>
-            </div>
-
-            <hr>
-            <div class="contact-desc">
-                <p>
-                    Lets get in touch and talk about your next project.
-                </p>
-            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
             
-            <form action="" method="get" autocomplete="on">
-                
-                <input type="text" name="nome" id="iNOme" required placeholder="Name" autocomplete="name">
-                <input type="email" name="mail" id="iMail" required placeholder="Email" autocomplete="email">
-                <input type="text" name="subjeect" id="iSubject" required placeholder="Subject">
-                <textarea name="comentario" id="iCOmentario" rows="1" placeholder="Comment"></textarea>
+            <section class="container-workers-info">
+                <div class="worker-item">
+                    <div><img class="about-img" src="./images/about/John Doe.jpg" alt="John Doe worker" width="100%"></div>
+                    <div class="worker-item-info">
+                        <h2 class="worker-heading">John Doe</h2>
+                        <h3 class="worker-category">CEO & Founder</h3>
+                        <p class="worker-desc">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <button class="btn-contact">Contact</button>
+                    </div>
+                </div>
 
-                <input type="submit" value="Send Message">
+                <div class="worker-item">
+                    <div><img class="about-img" src="./images/about/Jane Doe.jpg" alt="Jane Doe worker" width="100%"></div>
+                    <div class="worker-item-info">
+                        <h2 class="worker-heading">Jane Doe</h2>
+                        <h3 class="worker-category">Architect</h3>
+                        <p class="worker-desc">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <button class="btn-contact">Contact</button>
+                    </div>
+                </div>
+
+                <div class="worker-item">
+                    <div><img class="about-img" src="./images/about/Mike Ross.jpg" alt="Mike Ross worker" width="100%"></div>
+                    <div class="worker-item-info">
+                        <h2 class="worker-heading">Mike Ross</h2>
+                        <h3 class="worker-category">Architect</h3>
+                        <p class="worker-desc">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <button class="btn-contact">Contact</button>
+                    </div>
+                </div>
+
+                <div class="worker-item">
+                    <div><img class="about-img" src="./images/about/Dan Star.jpg" alt="Dan Star worker" width="100%"></div>
+                    <div class="worker-item-info">
+                        <h2 class="worker-heading">Dan Star</h2>
+                        <h3 class="worker-category">Architect</h3>
+                        <p class="worker-desc">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <button class="btn-contact">Contact</button>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+        <section class="section-contact content-section" id="contact">
+            
+            <h1 class="section-heading">Contact</h1>
+            <hr>
+            <p>Lets get in touch and talk about your next project.</p>
+            
+            <form action="" method="post">
+                <input type="text" name="name" id="iname" required autocomplete="name" placeholder="Name">
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Email">
+                <textarea name="subject" id="isubject" placeholder="Subject" rows="1"></textarea>
+                <textarea name="comment" id="icomment" placeholder="Comment" rows="1"></textarea>
+                <input type="submit" value="SEND MESSAGE">
             </form>
 
         </section>
-
-        <section class="section-main" id="mapa">
-
-            <img src="images/map.jpg" alt="map">
-
+        
+        <section class="map content-section">
+            <img class="map-img" src="./images/map.jpg" alt="company location" width="100%">
         </section>
-
-    </div>
+    </main>
 
     <footer>
-        <div>
-            <p>Powered by <a href="https://github.com/FanioPanga-23?tab=repositories">Fânio Mears</a></p>
-        </div>
+        <p>Powered by <a href="https://github.com/FanioPanga-23">Fânio Panga</a></p>
     </footer>
-
 </body>
 </html>
